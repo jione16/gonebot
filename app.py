@@ -1,8 +1,9 @@
 import uvicorn
-from fastapi import FastAPI
+from fastapi import FastAPI,Depends,HTTPException
 from router.bot import router as bot_router
 
 app = FastAPI()
+
 
 app.include_router(router=bot_router)
 
