@@ -15,7 +15,7 @@ trainner.train([
 ])
 
 trainner.train([
-    "Open beyondcompare",
+    "open beyondcompare",
     "Openning beyondcompare"
 ])
 
@@ -33,3 +33,7 @@ trainner.train([
     "redmine",
     "Openning Redmine"
 ])
+
+
+
+#list [bizplay website , beyond compare deploy , redmine category , putty session , open eclipse ]

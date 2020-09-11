@@ -1,14 +1,13 @@
 from fastapi import APIRouter, Query
-from bot.bot import get_response
+from bot.baymax import get_response as baymax_response
 
 router = APIRouter()
 
 
-@router.get('/get_response')
+@router.get('/baymax')
 def index(words: str = Query(None, min_length=2, max_length=100)):
     try:
-        response = get_response(words)
-        print(response)
+        response = baymax_response(words)
         return {
             "error": False,
             "response": str(response)
