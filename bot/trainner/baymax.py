@@ -16,24 +16,51 @@ trainner.train([
 
 trainner.train([
     "open beyondcompare",
-    "Openning beyondcompare"
+    "#beyondcompare"
+])
+trainner.train([
+    "open beyond compare",
+    "#beyondcompare"
+])
+
+trainner.train([
+    "bcompare",
+    "#beyondcompare"
 ])
 
 trainner.train([
     "beyondcompare",
-    "Openning beyondcompare"
+    "#beyondcompare"
 ])
 
 trainner.train([
     "open redmine",
-    "Openning Redmine"
+    "#redmine"
 ])
 
 trainner.train([
     "redmine",
-    "Openning Redmine"
+    "#redmine"
 ])
 
+trainner.train([
+    "what program you're writen in?",
+    "python"
+])
 
+trainner.train([
+    "what your name?",
+    "baymax"
+])
+
+trainner.train([
+    "haha",
+    "what so funny lah?🤔"
+])
+
+trainner.train([
+    "lol",
+    "what so funny lah?🤔"
+])
 
 #list [bizplay website , beyond compare deploy , redmine category , putty session , open eclipse ]
