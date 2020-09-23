@@ -3,6 +3,7 @@ from fastapi import FastAPI, Depends, HTTPException
 from router.bot import router as bot_router
 from dependencies.security_wall import is_ip_allow
 from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
 
 origins = [

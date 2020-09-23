@@ -63,4 +63,13 @@ trainner.train([
     "what so funny lah?🤔"
 ])
 
+trainner.train([
+    "open putty",
+    "#putty"
+])
+
+trainner.train([
+    "putty",
+    "#putty"
+])
 #list [bizplay website , beyond compare deploy , redmine category , putty session , open eclipse ]
